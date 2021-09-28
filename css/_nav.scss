@@ -1,0 +1,145 @@
+// Navbar
+.navbar {
+	width: 100%;
+	height: auto;
+	padding: 1rem 2rem;
+	color: $veryDarkBlue;
+    
+	// background: $color-white;
+    // margin: ;
+	// box-shadow: $box-shadow;
+
+	// Media Query for Desktop
+	@include largescreen {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	.navbrand {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+		.burger {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+			border: none;
+			outline: none;
+			background: none;
+			transition: all 0.35s ease;
+
+			&-close {
+				display: none;
+			}
+
+			&.active {
+				.burger-open {
+					display: none;
+				}
+				.burger-close {
+					display: flex;
+				}
+			}
+
+			// Media Query for Desktop
+			@include largescreen {
+				display: none;
+			}
+		}
+	}
+
+	.menu {
+		width: 100%;
+		height: 0;
+		overflow: hidden;
+		transition: all 0.5s ease;
+        
+        // background-color: white;
+
+		&-item {
+			margin: 0.5rem 0;
+		}
+
+		&-link {
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 700;
+			// line-height: inherit;
+            margin: 0 2rem;
+            
+			color: $darkBlue;
+			text-transform: capitalize;
+			text-rendering: optimizeLegibility;
+			transition: all 0.35s ease;
+
+			&:hover {
+				color: $darkGrayishBlue;
+			}
+		}
+
+		&.active {
+			width: 100%;
+			height: 10rem;
+			margin: 1rem 0;
+		}
+
+		// Media Query for Desktop
+		@include largescreen {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			height: auto;
+           
+
+			&-item {
+				padding: 0;
+				margin: 0 0.5rem;
+			}
+		}
+	}
+
+	.social {
+		display: none;
+
+		
+		// Media Query for Desktop
+		@include largescreen {
+			display: flex;
+		}
+	}
+    .btn {
+        font-family: 'Be Vietnam';
+        font-size: 15px;
+        font-weight: 700;
+        line-height: inherit;
+        margin: 0 0.5rem;
+        // color: $color-black;
+        background-color: $brightRed;
+        color: $veryLightGray;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 40px;
+        
+        
+        transition: all 0.35s ease;
+
+        &:hover {
+            // background-color: ;
+            border-bottom: 0 1px 3px $brightRed ;
+
+        }
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+}
