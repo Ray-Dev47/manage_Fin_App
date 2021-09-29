@@ -61,7 +61,6 @@
 		height: 0;
 		overflow: hidden;
 		transition: all 0.5s ease;
-        
         background-color: white;
 
 		&-item {
@@ -73,7 +72,7 @@
 			font-size: 16px;
 			font-weight: 700;
 			// line-height: inherit;
-            margin: 0 2rem;
+            margin: 0 1rem;
             
 			color: $darkBlue;
 			text-transform: capitalize;
@@ -100,7 +99,7 @@
 			height: auto;
             background-color: transparent;
            
-
+            
 			&-item {
 				padding: 0;
 				margin: 0 0.5rem;
@@ -110,8 +109,6 @@
 
 	.social {
 		display: none;
-
-		
 		// Media Query for Desktop
 		@include largescreen {
 			display: flex;
@@ -119,15 +116,15 @@
 		}
 	}
     .btn {
-        font-family: 'Be Vietnam';
+        font-family: inherit;
         font-size: 15px;
-        font-weight: 700;
+        font-weight: 500;
         line-height: inherit;
         margin: 0 0.5rem;
         // color: $color-black;
         background-color: $brightRed;
         color: $veryLightGray;
-        padding: 15px 40px;
+        padding: 13px 35px;
         border: none;
         border-radius: 40px;
         

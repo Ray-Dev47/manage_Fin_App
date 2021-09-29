@@ -27,15 +27,13 @@
 body {
 	font-family: "Be Vietnam", Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 16px;
-	// font-weight: 400;
-	line-height: 1.5;
-	color: $veryDarkBlue; 
+	// color: $veryDarkBlue; 
     max-width: 100%;
    
 	background: $veryLightGray;
     background-image: url('../images/bg-tablet-pattern.svg');
-    background-position:center;
-    background-repeat: repeat;
+    background-position:left;
+    background-repeat:no-repeat ;
     background-size:cover;
 }
 
@@ -75,5 +73,6 @@ a {
 	text-rendering: optimizeLegibility;
 }
 @import './nav';
-@import './hero'
+@import './hero';
+@import './features';
 
