@@ -9,12 +9,11 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        top: 0;
         // align-content: flex-start ;
 
     }
     &-text_1{
-        width: 500px;
+        max-width: 500px;
         margin: 0 auto ;
         // margin-top: 10px;
         margin-bottom: 50px;
@@ -22,20 +21,53 @@
         h1{
             font-size: 40px;
             font-weight: 700;
-            color: $veryDarkBlue;
+            color: $darkBlue;
         }
         p{
             color: $darkGrayishBlue;
+            font-size: 15px;
         }
 
     }
     &-text_2{
         display: flex;
-        width: 500px;
-        margin: 20px auto; 
+        flex-direction: column;
+        justify-content: center;
+        // align-content: center;
+        max-width: 550px;
+        margin: 29px auto; 
+
+        .features-flex{
+            display: flex;
+        }
 
         .numbering{
             margin-right: 20px;
+            margin-top: 40px;
+            background-color: $brightRed;
+            height: 30px;
+            padding: 20px 35px;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border-radius: 30px;
+            font-weight: 700;
+        }
+        .numbering_text{
+            display: flex;
+            flex-direction: column;
+            color: red;
+
+            h3{
+                margin-top: 43px;
+                color: $darkBlue;
+            }
+            p{
+                color: $darkGrayishBlue;
+                font-size: 15px;
+            }
         }
     }
 }

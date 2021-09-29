@@ -157,7 +157,7 @@ a {
   font-weight: 500;
   line-height: inherit;
   margin: 0 0.5rem;
-  background-color: #f25f3a;
+  background-color: #ff3b0a;
   color: #fafafa;
   padding: 13px 35px;
   border: none;
@@ -165,7 +165,7 @@ a {
   transition: all 0.35s ease;
 }
 .navbar .btn:hover {
-  border-bottom: 0 1px 3px #f25f3a;
+  border-bottom: 0 1px 3px #ff3b0a;
 }
 .navbar .btn:focus {
   outline: none;
@@ -190,7 +190,7 @@ a {
 .hero-text .hero-head {
   font-size: 3.6rem;
   font-weight: 700;
-  color: #1d1e25;
+  color: #242d52;
 }
 .hero-text p {
   color: #9095a7;
@@ -209,7 +209,7 @@ a {
   border: none;
   cursor: pointer;
   padding: 13px 40px;
-  background-color: #f25f3a;
+  background-color: #ff3b0a;
 }
 
 #features {
@@ -221,26 +221,55 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 0;
 }
 .features-text_1 {
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
   margin-bottom: 50px;
 }
 .features-text_1 h1 {
   font-size: 40px;
   font-weight: 700;
-  color: #1d1e25;
+  color: #242d52;
 }
 .features-text_1 p {
   color: #9095a7;
+  font-size: 15px;
 }
 .features-text_2 {
   display: flex;
-  width: 500px;
-  margin: 20px auto;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 550px;
+  margin: 29px auto;
+}
+.features-text_2 .features-flex {
+  display: flex;
 }
 .features-text_2 .numbering {
   margin-right: 20px;
+  margin-top: 40px;
+  background-color: #ff3b0a;
+  height: 30px;
+  padding: 20px 35px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+}
+.features-text_2 .numbering_text {
+  display: flex;
+  flex-direction: column;
+  color: red;
+}
+.features-text_2 .numbering_text h3 {
+  margin-top: 43px;
+  color: #242d52;
+}
+.features-text_2 .numbering_text p {
+  color: #9095a7;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
