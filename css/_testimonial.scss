@@ -144,14 +144,14 @@ border-radius: 50%;
 }
 
 .testim .cont div h2 {
-color: green;
+color: $darkBlue;
 font-size: 1em;
 margin: 15px 0;
 }
 
 .testim .cont div p {
-font-size: 1.15em;
-color: #333;
+color: $darkGrayishBlue;
+font-size: 15px;
 width: 70%;
 margin: auto;
 }
