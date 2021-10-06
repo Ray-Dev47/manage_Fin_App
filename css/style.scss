@@ -28,8 +28,7 @@ body {
 	font-family: "Be Vietnam", Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 16px;
 	// color: $veryDarkBlue; 
-    max-width: 100%;
-   
+    max-width: 100%; 
 	background: $veryLightGray;
     background-image: url('../images/bg-tablet-pattern.svg');
     background-position:left;
@@ -72,9 +71,11 @@ a {
 	text-transform: uppercase;
 	text-rendering: optimizeLegibility;
 }
+
 @import './nav';
 @import './hero';
 @import './features';
 @import './testimonial';
 @import './sign_up';
+@import './footer';
 
