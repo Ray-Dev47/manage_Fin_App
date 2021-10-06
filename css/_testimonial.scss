@@ -1,12 +1,15 @@
 .container{
     // background-color: red;
-    margin-top: 220px;
+    margin-top: 10rem;
+
 }
 
 .testim {
+    text-align: center;
     width: 100%;
     // position: absolute;
     top: 50%;
+    margin-bottom: -120px ;
     -webkit-transform: translatey(-50%);
     -moz-transform: translatey(-50%);
     -ms-transform: translatey(-50%);
@@ -18,7 +21,7 @@
 // position: relative;
 width: 100%;
 max-width: 1020px;
-padding: 40px 20px;
+// padding: 10px 20px;
 margin: auto;
 }
 
@@ -35,7 +38,7 @@ display: block;
 position: absolute;
 color: #333;
 cursor: pointer;
-font-size: 2em;
+font-size: 1.3em;
 top: 50%;
 -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -56,9 +59,8 @@ z-index: 22222222;
 }
 
 .testim .arrow:hover {
-color: green;
+color: $brightRed;
 }
-
 
 .testim .arrow.left {
 left: 70px;
@@ -82,8 +84,8 @@ z-index: 3333;
 .testim .dots .dot {
 list-style-type: none;
 display: inline-block;
-width: 12px;
-height: 12px;
+width: 10px;
+height: 10px;
 border-radius: 50%;
 border: 1px solid $brightRed;
 margin: 0 10px;
@@ -110,6 +112,23 @@ border-color: $brightRed;
 animation: testim-scale .5s ease-in-out forwards;   
 }
 
+.teslim-btn {
+    color: white;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 30px;
+    // position: relative;
+    padding: 12px;
+    border: none;
+    margin-left: 2.6rem;
+    cursor: pointer;
+    padding: 13px 40px;
+    background-color: $brightRed;
+
+}
+
 .testim .cont {
 position: relative;
     overflow: hidden;
@@ -128,12 +147,11 @@ opacity: 0;
 opacity: 1;
 }
 
-
 .testim .cont > div.active {
 position: relative;
 opacity: 1;
 }
-
+  
 
 .testim .cont div .img img {
 display: block;
@@ -155,6 +173,7 @@ font-size: 15px;
 width: 70%;
 margin: auto;
 }
+
 
 .testim .cont div.active .img img {
 -webkit-animation: testim-show .5s ease-in-out forwards;            

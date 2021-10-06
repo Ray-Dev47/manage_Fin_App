@@ -214,6 +214,7 @@ a {
 
 #features {
   padding-top: 30px;
+  padding-bottom: 8rem;
   margin: 0 50px;
 }
 
@@ -275,19 +276,20 @@ a {
 }
 
 .container {
-  margin-top: 220px;
+  margin-top: 10rem;
 }
 
 .testim {
+  text-align: center;
   width: 100%;
   top: 50%;
+  margin-bottom: -120px;
   transform: translatey(-50%);
 }
 
 .testim .wrap {
   width: 100%;
   max-width: 1020px;
-  padding: 40px 20px;
   margin: auto;
 }
 
@@ -304,7 +306,7 @@ a {
   position: absolute;
   color: #333;
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.3em;
   top: 50%;
   transform: translateY(-50%);
   transition: all 0.3s ease-in-out;
@@ -317,7 +319,7 @@ a {
 }
 
 .testim .arrow:hover {
-  color: green;
+  color: #ff3b0a;
 }
 
 .testim .arrow.left {
@@ -342,8 +344,8 @@ a {
 .testim .dots .dot {
   list-style-type: none;
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   border: 1px solid #ff3b0a;
   margin: 0 10px;
@@ -361,6 +363,21 @@ a {
 .testim .dots .dot.active {
   -webkit-animation: testim-scale 0.5s ease-in-out forwards;
   animation: testim-scale 0.5s ease-in-out forwards;
+}
+
+.teslim-btn {
+  color: white;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 12px;
+  border: none;
+  margin-left: 2.6rem;
+  cursor: pointer;
+  padding: 13px 40px;
+  background-color: #ff3b0a;
 }
 
 .testim .cont {
@@ -558,4 +575,13 @@ a {
   .testim .cont div p {
     line-height: 25px;
   }
+}
+#signup {
+  background-image: url(../images/bg-simplify-section-desktop.svg);
+  background-color: #ff3b0a;
+  padding: 80px 0;
+  margin: auto;
+}
+#signup .signup-container {
+  color: blanchedalmond;
 }/*# sourceMappingURL=style.css.map */
