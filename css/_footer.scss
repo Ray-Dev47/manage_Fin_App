@@ -16,7 +16,7 @@
         width: 200px;
         margin:0 auto ;
         padding-right: 1rem;
-        padding-bottom: 20px;
+        // padding-bottom: 20px;
         display: flex;
         flex-direction: column;
         // justify-content: space-between;
@@ -24,11 +24,14 @@
     .social-links {
         display: flex;
         justify-content: space-between;
-        padding:  5rem 0;
+        padding:  10px 0;
 
         margin:0 10px ;
         // padding-right: 10px;
     }
+    // .social-links .link{
+
+    // }
     .social-links a img{
         width: 25px;
         height: auto;
