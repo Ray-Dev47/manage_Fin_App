@@ -583,6 +583,11 @@ a {
   padding: 50px 0;
   margin: auto;
 }
+#signup .counter {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 1rem;
+}
 #signup .signup-container {
   color: #fafafa;
   max-width: 100%;
