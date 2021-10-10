@@ -117,3 +117,6 @@ window.onload = function() {
 			
 		})
 }
+
+// get current year copyright functionality
+document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
