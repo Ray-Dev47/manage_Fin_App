@@ -582,13 +582,11 @@ a {
   background-color: #ff3b0a;
   padding: 50px 0;
   margin: auto;
-  max-width: 100%;
-  width: 100%;
 }
 #signup .signup-container {
   color: #fafafa;
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
